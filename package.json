@@ -1,0 +1,25 @@
+{
+  "name": "railgun-cross-chain-bridge",
+  "version": "1.0.0",
+  "description": "Code to send roots between the prototype Railgun Cross Chain contracts deployed on testnets.",
+  "homepage": "https://github.com/Miguelsanchezuc3m/Railgun-Cross-Chain-Bridge#readme",
+  "bugs": {
+    "url": "https://github.com/Miguelsanchezuc3m/Railgun-Cross-Chain-Bridge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguelsanchezuc3m/Railgun-Cross-Chain-Bridge.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+    "@arbitrum/sdk": "^4.0.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^5.1.2"
+  }
+}
